@@ -6,7 +6,17 @@ import { MdDownloadForOffline } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <div className="flex p-2 px-4 justify-between items-center w-full bg-white fixed border-b-2 border-[#3c4147]">
+    <>
+    <Head>
+    <title>NOTUS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </Head>
+     <div className="flex p-2 px-4 justify-between items-center w-full bg-white fixed border-b-2 border-[#3c4147]">
     <div>
       <h1 className="text-gray-600 text-1xl font-bold">NOTUS</h1>
     </div>
@@ -34,6 +44,7 @@ const Navbar = () => {
       </div>
     </div>
   </div>
+  </>
   )
 }
 
